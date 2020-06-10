@@ -1,1 +1,22 @@
-test
+.introduction {
+    text-align: center;
+    display: inline-block;
+}
+
+.introduction-text {
+    margin-bottom: 0;
+}
+
+.top {
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+.name {
+    font-weight: normal;
+    font-size: 3rem;
+}
+
+.name:hover {
+    color: rgb(168, 2, 2);
+}
