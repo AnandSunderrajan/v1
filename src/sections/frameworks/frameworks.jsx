@@ -14,11 +14,11 @@ class FrameworksComponent extends Component {
             <div className="design">
                 <p className="headline">Frameworks and Software</p>
                 <p className="text-justify">
-                    Through my parents job as a diplomat, I fell in love with cultures worldwide.
+                    Through my parent's job as a diplomat, I fell in love with cultures worldwide.
 
                     Since then, I have tried to create projects that would have a positive impact.
 
-                    Presently, I aim to develop beautiful, impactful, and intuitive solutions.
+                    Presently, I aim to develop impactful and intuitive solutions.
 
                 </p>
 
