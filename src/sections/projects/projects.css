@@ -1,0 +1,25 @@
+
+.projects p.headline {
+    margin-top: 0;
+}
+
+.projects-entry {
+    margin-bottom: 5px;
+}
+
+.projects-entry:last-of-type {
+    margin-bottom: 0px;
+}
+
+.projects-entry-chip {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.projects-entries {
+    display: inline-block;
+    margin-top: 20px;
+}
+
