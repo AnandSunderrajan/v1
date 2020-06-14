@@ -22,3 +22,85 @@ class LanguagesComponent extends Component {
                                 <div className="console-button btn-3"></div>
                             </div>
                         </div>
+                        <div className="console-content">
+                            <ul>
+                                <li>&lt;<span className="html-1">html</span>&gt;</li>
+                                <li>
+                                    <ul className="no-top-padding">
+                                        <li>
+                                            &lt;<span className="html-1">head</span>&gt;
+                                            &lt;/<span className="html-1">head</span>&gt;
+                                        </li>
+                                        <li>&lt;<span className="html-1">body</span>&gt;</li>
+                                        <li>
+                                            <ul className="no-top-padding">
+                                                <li>&lt;<span className="html-1">ul</span>&gt;</li>
+                                                <ul className="no-top-padding">
+                                                    <li>
+                                                        &lt;<span className="html-1">li</span>&gt;
+                                                        <span className="html-2">Assembly(LC3)</span>
+                                                        &lt;/<span className="html-1">li</span>&gt;</li>
+                                                    <li>
+                                                        &lt;<span className="html-1">li</span>&gt;
+                                                        <span className="html-2">C/C++</span>
+                                                        &lt;/<span className="html-1">li</span>&gt;
+                                                    </li>
+                                                    <li>
+                                                        &lt;<span className="html-1">li</span>&gt;
+                                                        <span className="html-2">C for Cuda</span>
+                                                        &lt;/<span className="html-1">li</span>&gt;
+                                                    </li>
+                                                    <li>
+                                                        &lt;<span className="html-1">li</span>&gt;
+                                                        <span className="html-2">CSS</span>
+                                                        &lt;/<span className="html-1">li</span>&gt;
+                                                    </li>
+                                                    <li>
+                                                        &lt;<span className="html-1">li</span>&gt;
+                                                        <span className="html-2">HTML5</span>
+                                                        &lt;/<span className="html-1">li</span>&gt;
+                                                    </li>
+                                                    <li>
+                                                        &lt;<span className="html-1">li</span>&gt;
+                                                        <span className="html-2">JavaScript</span>
+                                                        &lt;/<span className="html-1">li</span>&gt;
+                                                    </li>
+                                                    <li>
+                                                        &lt;<span className="html-1">li</span>&gt;
+                                                        <span className="html-2">Node-Red</span>
+                                                        &lt;/<span className="html-1">li</span>&gt;
+                                                    </li>
+                                                    <li>
+                                                        &lt;<span className="html-1">li</span>&gt;
+                                                        <span className="html-2">Python</span>
+                                                        &lt;/<span className="html-1">li</span>&gt;
+                                                    </li>
+                                                    <li>
+                                                        &lt;<span className="html-1">li</span>&gt;
+                                                        <span className="html-2">SystemVerilog</span>
+                                                        &lt;/<span className="html-1">li</span>&gt;
+                                                    </li>
+                                                    {/*<li>*/}
+                                                    {/*  &lt;<span className="html-1">li</span>&gt;*/}
+                                                    {/*  <span className="html-2">HTML5, CSS3</span>*/}
+                                                    {/*  &lt;/<span className="html-1">li</span>&gt;*/}
+                                                    {/*</li>*/}
+                                                </ul>
+                                                <li>&lt;/<span className="html-1">ul</span>&gt;</li>
+                                            </ul>
+                                        </li>
+                                        <li>&lt;/<span className="html-1">body</span>&gt;</li>
+                                    </ul>
+                                </li>
+                                <li>&lt;/<span className="html-1">html</span>&gt;</li>
+                            </ul>
+                        </div>
+                    </Paper>
+                </div>
+            </div>
+        );
+    }
+}
+
+export default LanguagesComponent;
+
