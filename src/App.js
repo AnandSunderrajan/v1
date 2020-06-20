@@ -50,7 +50,6 @@ class App extends Component {
             <div className="section colored">
               <div className="section-container">
                 <ContactComponent></ContactComponent>
-                <MyForm/>
               </div>
             </div>
           </div>

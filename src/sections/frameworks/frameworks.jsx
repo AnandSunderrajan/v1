@@ -4,7 +4,7 @@ import ActionFavorite from 'material-ui/svg-icons/action/favorite';
 import ActionFavoriteBorder from 'material-ui/svg-icons/action/favorite-border';
 import StarIcon from '@material-ui/icons/Star';
 import StarOutlineIcon from '@material-ui/icons/StarBorder';
-import './design.css';
+import './frameworks.css';
 
 
 class FrameworksComponent extends Component {
