@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './footer.css';
+import './contacts.css';
 import FlatButton from 'material-ui/FlatButton';
 const scrollTo = require('scroll-to');
 
