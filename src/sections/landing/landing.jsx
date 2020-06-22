@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import FloatingActionButton from 'material-ui/FloatingActionButton';
 import ArrowIcon from 'material-ui/svg-icons/hardware/keyboard-arrow-down';
-import './header.css';
+import './landing.css';
 const scrollTo = require('scroll-to');
 
 
