@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './introduction.css';
+import './intro.css';
 import Avatar from 'material-ui/Avatar';
 import Button from "@material-ui/core/Button";
 import {Jumbotron} from "react-bootstrap";
