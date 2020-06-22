@@ -71,7 +71,7 @@ class ProjectsComponent extends Component {
                         <CardHeader title="COVID-19 Tracker" subtitle="Side Project"
                                     actAsExpander={true} showExpandableButton={true}/>
                         <CardText expandable={true}>
-                            Tracks COVID-19 cases globally using API data available through <a href=""> xyz PUT HERE </a>, and displays relevant data through text and visual aid . Builds upon a US statistic reporter from ECE498 ICC.
+                            Tracks COVID-19 cases globally using API data available through <a href="https://google.com"> xyz PUT HERE </a>, and displays relevant data through text and visual aid . Builds upon a US statistic reporter from ECE498 ICC.
                             <br/>
                             <div className="projects-entries">
                                 <div className="projects-entry-chip">
