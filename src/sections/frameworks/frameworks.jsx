@@ -28,6 +28,7 @@ class FrameworksComponent extends Component {
                         uncheckedIcon={<StarOutlineIcon />}
                         iconStyle={{"fill":"#A80202"}}
                         label="Adobe Suite"
+                        labelStyle={{color:'white'}}
                     />
                 </div>
                 <div className="design-checkbox">
@@ -36,6 +37,7 @@ class FrameworksComponent extends Component {
                         uncheckedIcon={<StarOutlineIcon />}
                         iconStyle={{"fill":"#A80202"}}
                         label="AWS"
+                        labelStyle={{color:'white'}}
                     />
                 </div>
                 <div className="design-checkbox">
@@ -44,6 +46,7 @@ class FrameworksComponent extends Component {
                         uncheckedIcon={<StarOutlineIcon />}
                         iconStyle={{"fill":"#A80202"}}
                         label="Git"
+                        labelStyle={{color:'white'}}
                     />
                 </div>
                 <div className="design-checkbox">
@@ -52,6 +55,7 @@ class FrameworksComponent extends Component {
                         uncheckedIcon={<StarOutlineIcon />}
                         iconStyle={{"fill":"#A80202"}}
                         label="Jetbrains Suite"
+                        labelStyle={{color:'white'}}
                     />
                 </div>
                 <div className="design-checkbox">
@@ -60,6 +64,7 @@ class FrameworksComponent extends Component {
                         uncheckedIcon={<StarOutlineIcon />}
                         iconStyle={{"fill":"#A80202"}}
                         label="Keras"
+                        labelStyle={{color:'white'}}
                     />
                 </div>
                 <div className="design-checkbox">
@@ -68,6 +73,7 @@ class FrameworksComponent extends Component {
                         uncheckedIcon={<StarOutlineIcon />}
                         iconStyle={{"fill":"#A80202"}}
                         label="KiCad"
+                        labelStyle={{color:'white'}}
                     />
                 </div>
                 <div className="design-checkbox">
@@ -76,6 +82,7 @@ class FrameworksComponent extends Component {
                         uncheckedIcon={<StarOutlineIcon />}
                         iconStyle={{"fill":"#A80202"}}
                         label="Linux"
+                        labelStyle={{color:'white'}}
                     />
                 </div>
                 <div className="design-checkbox">
