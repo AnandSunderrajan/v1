@@ -161,7 +161,7 @@ class ProjectsComponent extends Component {
                 </div>
                 <br/>
                 <div>
-                    <Button className={"inline-block justify-content-center"} target={"_blank"} href={"https://github.com/Xeno-404/"}>More Of My Work! </Button> </div>
+                    <Button className={"inline-block justify-content-center"} target={"_blank"} href={"https://github.com/Xeno-404/"} style={{color:'white'}}>More Of My Work! </Button> </div>
             </div>
 
         );
