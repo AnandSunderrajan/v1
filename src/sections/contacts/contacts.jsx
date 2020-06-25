@@ -16,15 +16,15 @@ class ContactComponent extends Component {
         return (
             <div className="footer">
                 <div className="link-list">
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/Xeno-404">
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/Xeno-404" color={'white'}>
                         Github
                     </a>
                     /
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/" color={'white'}>
                         LinkedIn
                     </a>
                     /
-                    <a target="_blank" rel="noopener noreferrer" href="mailto:anandsunderrajan29@gmail.com">
+                    <a target="_blank" rel="noopener noreferrer" href="mailto:anandsunderrajan29@gmail.com" color={'white'}>
                         E-Mail
                     </a>
                 </div>
