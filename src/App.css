@@ -36,8 +36,8 @@ p {
   max-width: 400px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 160px;
-  padding-bottom: 160px;
+  padding-top: 10rem;
+  padding-bottom: 8rem;
 }
 
 .section.dark {
@@ -56,6 +56,7 @@ p {
   /*background: #D8AB94;*/
   background: #1A1A1D;
   color: white;
+  padding-top: 5rem;
 }
 
 p.headline {
