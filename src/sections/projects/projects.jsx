@@ -71,7 +71,7 @@ class ProjectsComponent extends Component {
                         <CardHeader title="COVID-19 Tracker" subtitle="Side Project"
                                     actAsExpander={true} showExpandableButton={true}/>
                         <CardText expandable={true}>
-                            Tracks COVID-19 cases globally using API data available through <a href="https://google.com"> xyz PUT HERE </a>, and displays relevant data through text and visual aid . Builds upon a US statistic reporter from ECE498 ICC.
+                            Website with an interactive interface that tracks COVID-19 cases globally using API data available through 'The COVID Tracking Project'. Relevant data is displayed through text and visual aid.
                             <br/>
                             <div className="projects-entries">
                                 <div className="projects-entry-chip">
@@ -85,9 +85,9 @@ class ProjectsComponent extends Component {
                                 </div>
                                 <br/>
                                 <div>
-                                    <Button target={"_blank"} href={"https://github.com"} startIcon={<Github/>}>View Source</Button>
+                                    <Button target={"_blank"} href={"https://github.com/AnandSunderrajan"} startIcon={<Github/>}>In Progress</Button>
                                 </div>
-                                <Button target={"_blank"} href={"https://github.com"} startIcon={<Language/>}>Live Version</Button>
+                                {/*<Button target={"_blank"} href={"https://github.com"} startIcon={<Language/>}>Live Version</Button>*/}
                             </div>
                         </CardText>
                     </Card>
@@ -97,7 +97,7 @@ class ProjectsComponent extends Component {
                         <CardHeader title="Pipelined LC3-b Microprocessor" subtitle="ECE385 Final Project"
                                     actAsExpander={true} showExpandableButton={true}/>
                         <CardText expandable={true}>
-                            A pipelined version of the LC3-B Microprocessor with features such as cache, branch prediction, etc. Built as a final project for ECE385.
+                            A pipelined version of the LC3-B Microprocessor with features such as cache, branch prediction, etc. Pipelined version built as a final project for ECE385 with additional features added subsequently.
 
                             <div className="projects-entries">
                                 <div className="projects-entry-chip">
@@ -120,17 +120,17 @@ class ProjectsComponent extends Component {
                                 </div>
                                 <br />
                                 <div>
-                                    <Button target={"_blank"} href={"https://github.com"} startIcon={<Github/>}>View Source</Button> </div>
+                                    <Button target={"_blank"} href={"https://github.com/AnandSunderrajan/Pipelined-lc3"} startIcon={<Github/>}>View Source</Button> </div>
                             </div>
                         </CardText>
                     </Card>
                 </div>
                 <div className="projects-entry">
                     <Card expanded={this.state.expanded3} onExpandChange={this.handleExpandChange3}>
-                        <CardHeader title="Object Detection System" subtitle="ECE498"
+                        <CardHeader title="Object Detection and Classification System" subtitle="ECE498"
                                     actAsExpander={true} showExpandableButton={true}/>
                         <CardText expandable={true}>
-                            An object detection system for Fashion, built using two separate methods - Low-Level APIs, and Keras. It is trained on the Fashion MNIST database and achieves ~93% accuracy on test images through both methods.
+                            An object detection and classification system for fashion, built using two separate methods - Low-Level APIs, and Keras. It is trained on the Fashion MNIST database and achieves ~88% accuracy through both methods.
 
                             <div className="projects-entries">
                                 <div className="projects-entry-chip">
