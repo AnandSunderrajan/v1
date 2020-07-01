@@ -22,10 +22,10 @@ class WebsiteComponent extends Component {
                         avatar="github.png"
                     />
                     <CardText>
-                        This application is made with React and Material UI. Check out the code on Github.
+                        This application is made with JavaScript, CSS, React and Material UI. Check out the code on Github.
                     </CardText>
                     <CardActions>
-                        <FlatButton label="View on github" href="https://github.com/Xeno-404/" target="_blank"/>
+                        <FlatButton label="View on github" href="https://github.com/AnandSunderrajan/anandsunderrajan.github.io" target="_blank"/>
                     </CardActions>
                 </Card>
             </div>
