@@ -14,9 +14,9 @@ class FrameworksComponent extends Component {
             <div className="design">
                 <p className="headline">Frameworks and Software</p>
                 <p className="text-justify">
-                    Through my parents jobs as diplomats, I fell in love with cultures worldwide.
+                    Through my parents job as a diplomat, I fell in love with cultures worldwide.
 
-                    Since then, I have tried to create objects that would have a positive impact.
+                    Since then, I have tried to create projects that would have a positive impact.
 
                     Presently, I aim to develop beautiful, impactful, and intuitive solutions.
 
