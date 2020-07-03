@@ -16,7 +16,7 @@ class ContactComponent extends Component {
         return (
             <div className="footer">
                 <div className="link-list">
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/Xeno-404" color={'white'}>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/AnandSunderrajan" color={'white'}>
                         Github
                     </a>
                     /
