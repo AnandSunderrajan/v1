@@ -29,6 +29,7 @@ class LanguagesComponent extends Component {
                                     <ul className="no-top-padding">
                                         <li>
                                             &lt;<span className="html-1">head</span>&gt;
+                                            <span className="html-2">Hello World!</span>
                                             &lt;/<span className="html-1">head</span>&gt;
                                         </li>
                                         <li>&lt;<span className="html-1">body</span>&gt;</li>
