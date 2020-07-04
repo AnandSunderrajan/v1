@@ -20,7 +20,7 @@ class ContactComponent extends Component {
                         Github
                     </a>
                     /
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/" color={'white'}>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/AnandSunderrajan" color={'white'}>
                         LinkedIn
                     </a>
                     /
