@@ -24,7 +24,7 @@ class ContactComponent extends Component {
                         LinkedIn
                     </a>
                     /
-                    <a target="_blank" rel="noopener noreferrer" href="mailto:anandsunderrajan29@gmail.com" color={'white'}>
+                    <a target="_blank" rel="noopener noreferrer" href="mailto:anands3@illinois.edu" color={'white'}>
                         E-Mail
                     </a>
                 </div>
