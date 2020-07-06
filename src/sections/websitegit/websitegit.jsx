@@ -18,7 +18,7 @@ class WebsiteComponent extends Component {
                 <Card>
                     <CardHeader
                         subtitle="Github Repository"
-                        title="Xeno-404/Portfolio"
+                        title="Personal Website"
                         avatar="github.png"
                     />
                     <CardText>
