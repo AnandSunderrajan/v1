@@ -32,7 +32,7 @@ class App extends Component {
                 <ProjectsComponent></ProjectsComponent>
               </div>
             </div>
-            <div className="section colored">
+            <div className="section">
               <div className="section-container">
                 <LanguagesComponent></LanguagesComponent>
               </div>
@@ -46,8 +46,6 @@ class App extends Component {
               <div className="section-container">
                 <WebsiteComponent></WebsiteComponent>
               </div>
-            </div>
-            <div className="section colored">
               <div className="section-container">
                 <ContactComponent></ContactComponent>
               </div>
