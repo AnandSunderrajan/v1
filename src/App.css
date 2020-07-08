@@ -40,6 +40,15 @@ p {
   padding-bottom: 8rem;
 }
 
+.section-container-body {
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10rem;
+  /*padding-bottom: rem;*/
+}
+
 .section.dark {
   background: #1A1A1D;
 }
@@ -53,10 +62,14 @@ p {
 }
 
 .section.colored {
-  /*background: #D8AB94;*/
   background: #1A1A1D;
   color: white;
   padding-top: 5rem;
+}
+
+.section.bottom {
+  background: #1A1A1D;
+  color: white;
 }
 
 p.headline {
