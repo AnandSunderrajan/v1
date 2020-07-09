@@ -28,25 +28,25 @@ class App extends Component {
               </div>
             </div>
             <div className="section">
-              <div className="section-container">
+              <div className="section-container-body">
                 <ProjectsComponent></ProjectsComponent>
               </div>
             </div>
             <div className="section">
-              <div className="section-container">
+              <div className="section-container-body">
                 <LanguagesComponent></LanguagesComponent>
               </div>
             </div>
             <div className="section">
-              <div className="section-container">
+              <div className="section-container-body">
                 <FrameworksComponent></FrameworksComponent>
               </div>
             </div>
             <div className="section">
-              <div className="section-container">
+              <div className="section-container-body">
                 <WebsiteComponent></WebsiteComponent>
               </div>
-              <div className="section-container">
+              <div className="section bottom footer-component">
                 <ContactComponent></ContactComponent>
               </div>
             </div>
