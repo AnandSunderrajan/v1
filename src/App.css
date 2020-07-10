@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
+  font-size: large;
   /*color: #212121 !important;*/
   color: white;
   overflow-x: hidden;
@@ -9,15 +10,17 @@ body {
 }
 
 h3 {
-  font-weight: 300;
+  font-weight: 400;
+  font-size: medium;
 }
 
 h6 {
-  font-weight: 500;
+  font-weight: 600;
+  font-size: medium;
 }
 
 p, span {
-  font-weight: 300;
+  font-weight: 400;
 }
 
 p {
@@ -33,16 +36,16 @@ p {
 
 .section-container {
   width: 100%;
-  max-width: 400px;
+  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 10rem;
-  padding-bottom: 8rem;
+  padding-bottom: 9rem;
 }
 
 .section-container-body {
   width: 100%;
-  max-width: 400px;
+  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 10rem;
