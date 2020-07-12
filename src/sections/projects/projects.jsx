@@ -153,7 +153,7 @@ class ProjectsComponent extends Component {
                                 </div>
                                 <br/>
                                 <div>
-                                    <Button target={"_blank"} href={"https://github.com"} startIcon={<Github/>}>View Source</Button>
+                                    <Button target={"_blank"} href={"https://github.com/AnandSunderrajan/FashionMNIST-Object-Detection"} startIcon={<Github/>}>View Source</Button>
                                 </div>
                             </div>
                         </CardText>
