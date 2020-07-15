@@ -6,7 +6,8 @@ body {
   /*color: #212121 !important;*/
   color: white;
   overflow-x: hidden;
-  background-color: #1A1A1D;
+  /*background-color: #1A1A1D;*/
+background: #001545;
 }
 
 h3 {
@@ -53,7 +54,8 @@ p {
 }
 
 .section.dark {
-  background: #1A1A1D;
+  /*background: #1A1A1D;*/
+  background: #001545;
 }
 
 .section-container.header-component {
@@ -65,14 +67,16 @@ p {
 }
 
 .section.colored {
-  background: #1A1A1D;
+  /*background: #1A1A1D;*/
   color: white;
+  background: #001545;
   padding-top: 5rem;
 }
 
 .section.bottom {
-  background: #1A1A1D;
+  /*background: #1A1A1D;*/
   color: white;
+  background: #001545;
 }
 
 p.headline {
@@ -85,7 +89,7 @@ p.headline {
 }
 
 .header-section {
-  background: #1A1A1D;
+  background: #001545;
 }
 
 p.text-justify {
