@@ -42,7 +42,7 @@ class LandingComponent extends Component {
             <div className="header-wrapper" style={{"height": this.state.height}}>
                 <div className="header">
                     <h3>Anand Sunderrajan</h3>
-                    <h6>Course Advisor: ECE385 @ UIUC</h6>
+                    <h6>Teaching Assistant: ECE445 and ECE385 @ UIUC</h6>
                 </div>
                 <div className="scroll-down-btn">
                     <FloatingActionButton mini={true} backgroundColor="#A80202" onClick={this.onScrollToIntro.bind(this)}>
