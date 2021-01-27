@@ -67,6 +67,37 @@ class ProjectsComponent extends Component {
             <div className="projects">
                 <p className="headline">My Work</p>
                 <div className="projects-entry">
+                    <Card expanded={this.state.expanded2} onExpandChange={this.handleExpandChange2}>
+                        <CardHeader title="Event Attendance Tracker" subtitle="ECE445 Project"
+                                    actAsExpander={true} showExpandableButton={true}/>
+                        <CardText expandable={true}>
+                            Project for ECE 445 (Team 13), the capstone course for the ECE department at UIUC. A system that tracks event attendees at
+                            a booth through custom designed hardware using an ESP32 micro-controller. Marks users as attended after certain user-configurable parameters are met (time and distance)
+
+                            <div className="projects-entries">
+                                <div className="projects-entry-chip">
+                                    <Chip label={"EAGLE"}/>
+                                </div>
+                                <div className="projects-entry-chip">
+                                    <Chip label={"C"}/>
+                                </div>
+                                <div className="projects-entry-chip">
+                                    <Chip label={"Java"}/>
+                                </div>
+                                <div className="projects-entry-chip">
+                                    <Chip label={"Android Studio"}/>
+                                </div>
+                                <div className="projects-entry-chip">
+                                    <Chip label={"Project Management"}/>
+                                </div>
+                                <br />
+                                <div>
+                                    <Button target={"_blank"} href={"https://courses.engr.illinois.edu/ece445/projects.asp"} startIcon={<Github/>}>View Source</Button> </div>
+                            </div>
+                        </CardText>
+                    </Card>
+                </div>
+                <div className="projects-entry">
                     <Card expanded={this.state.expanded1} onExpandChange={this.handleExpandChange}>
                         <CardHeader title="COVID-19 Tracker" subtitle="Side Project"
                                     actAsExpander={true} showExpandableButton={true}/>
