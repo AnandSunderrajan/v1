@@ -92,7 +92,7 @@ class ProjectsComponent extends Component {
                                 </div>
                                 <br />
                                 <div>
-                                    <Button target={"_blank"} href={"https://courses.engr.illinois.edu/ece445/projects.asp"} startIcon={<Github/>}>View Source</Button> </div>
+                                    <Button target={"_blank"} href={"https://courses.engr.illinois.edu/ece445/projects.asp"} startIcon={<Github/>}>View Project</Button> </div>
                             </div>
                         </CardText>
                     </Card>
