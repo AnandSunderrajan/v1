@@ -39,6 +39,18 @@ class LanguagesComponent extends Component {
                                                 <ul className="no-top-padding">
                                                     <li>
                                                         &lt;<span className="html-1">li</span>&gt;
+                                                        <span className="html-2">Keras</span>
+                                                        &lt;/<span className="html-1">li</span>&gt;</li>
+                                                    <li>
+                                                        &lt;<span className="html-1">li</span>&gt;
+                                                        <span className="html-2">Tensorflow</span>
+                                                        &lt;/<span className="html-1">li</span>&gt;</li>
+                                                    <li>
+                                                        &lt;<span className="html-1">li</span>&gt;
+                                                        <span className="html-2">PyTorch</span>
+                                                        &lt;/<span className="html-1">li</span>&gt;</li>
+                                                    <li>
+                                                        &lt;<span className="html-1">li</span>&gt;
                                                         <span className="html-2">Assembly(LC3)</span>
                                                         &lt;/<span className="html-1">li</span>&gt;</li>
                                                     <li>
