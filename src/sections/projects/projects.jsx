@@ -68,7 +68,7 @@ class ProjectsComponent extends Component {
                 <p className="headline">My Work</p>
                 <div className="projects-entry">
                     <Card expanded={this.state.expanded2} onExpandChange={this.handleExpandChange2}>
-                        <CardHeader title="Event Attendance Tracker" subtitle="ECE445 Project"
+                        <CardHeader title="Event Attendance Tracker" subtitle="ECE445 Project (Fall 2020)"
                                     actAsExpander={true} showExpandableButton={true}/>
                         <CardText expandable={true}>
                             Project for ECE 445 (Team 13), the capstone course for the ECE department at UIUC. A system that tracks event attendees at
