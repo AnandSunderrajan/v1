@@ -63,15 +63,6 @@ class FrameworksComponent extends Component {
                         checkedIcon={<StarIcon />}
                         uncheckedIcon={<StarOutlineIcon />}
                         iconStyle={{"fill":"#A80202"}}
-                        label="Keras"
-                        labelStyle={{color:'white'}}
-                    />
-                </div>
-                <div className="design-checkbox">
-                    <Checkbox
-                        checkedIcon={<StarIcon />}
-                        uncheckedIcon={<StarOutlineIcon />}
-                        iconStyle={{"fill":"#A80202"}}
                         label="KiCad"
                         labelStyle={{color:'white'}}
                     />
