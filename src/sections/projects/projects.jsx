@@ -18,7 +18,8 @@ class ProjectsComponent extends Component {
         this.state = {
             expanded1: false,
             expanded2: false,
-            expanded3: false
+            expanded3: false,
+            expanded4: false
         };
     }
 
@@ -26,7 +27,7 @@ class ProjectsComponent extends Component {
 
     componentWillUnmount() {}
 
-    handleExpandChange = (expanded1) => {
+    handleExpandChange1 = (expanded1) => {
         this.setState({expanded1: expanded1});
     };
 
@@ -38,8 +39,13 @@ class ProjectsComponent extends Component {
         this.setState({expanded3: expanded3});
     };
 
+    handleExpandChange4 = (expanded4) => {
+        this.setState({expanded4: expanded4});
+    };
+
+
     handleExpand = () => {
-        this.setState({expanded: true});
+        this.setState({expanded1: true});
     };
 
     handleExpand2 = () => {
@@ -48,6 +54,10 @@ class ProjectsComponent extends Component {
 
     handleExpand3 = () => {
         this.setState({expanded3: true});
+    };
+
+    handleExpand4 = () => {
+        this.setState({expanded4: true});
     };
 
     handleReduce = () => {
@@ -62,10 +72,47 @@ class ProjectsComponent extends Component {
         this.setState({expanded3: false});
     };
 
+    handleReduce4 = () => {
+        this.setState({expanded4: false});
+    };
+
     render() {
         return (
             <div className="projects">
                 <p className="headline">My Work</p>
+                <div className="projects-entry">
+                    <Card expanded={this.state.expanded1} onExpandChange={this.handleExpandChange1}>
+                        <CardHeader title="Trading Bot" subtitle="Side Project"
+                                    actAsExpander={true} showExpandableButton={true}/>
+                        <CardText expandable={true}>
+                            Algorithmic trading bot that provides output for specific technical indicators (moving averages, price level movements,
+                            MACD, etc.) and sentiment analysis for tickers on high traffic subreddits. Achieved an alpha of 0.43 with a beta of 0.12
+                            <br/>
+                            <div className="projects-entries">
+                                <div className="projects-entry-chip">
+                                    <Chip label={"Python"} />
+                                </div>
+                                <div className="projects-entry-chip">
+                                    <Chip label="PyTorch"/>
+                                </div>
+                                <div className="projects-entry-chip">
+                                    <Chip label="Pandas"/>
+                                </div>
+                                <div className="projects-entry-chip">
+                                    <Chip label="PRAW"/>
+                                </div>
+                                <div className="projects-entry-chip">
+                                    <Chip label="Matplotlib"/>
+                                </div>
+                                <br/>
+                                <div>
+                                    <Button target={"_blank"} href={"https://github.com/AnandSunderrajan"} startIcon={<Github/>}>In Progress</Button>
+                                </div>
+                                {/*<Button target={"_blank"} href={"https://github.com"} startIcon={<Language/>}>Live Version</Button>*/}
+                            </div>
+                        </CardText>
+                    </Card>
+                </div>
                 <div className="projects-entry">
                     <Card expanded={this.state.expanded2} onExpandChange={this.handleExpandChange2}>
                         <CardHeader title="Event Attendance Tracker" subtitle="ECE445 Project (Fall 2020)"
@@ -98,33 +145,7 @@ class ProjectsComponent extends Component {
                     </Card>
                 </div>
                 <div className="projects-entry">
-                    <Card expanded={this.state.expanded1} onExpandChange={this.handleExpandChange}>
-                        <CardHeader title="COVID-19 Tracker" subtitle="Side Project"
-                                    actAsExpander={true} showExpandableButton={true}/>
-                        <CardText expandable={true}>
-                            Website with an interactive interface that tracks COVID-19 cases globally using API data available through 'The COVID Tracking Project'. Relevant data is displayed through text and visual aid.
-                            <br/>
-                            <div className="projects-entries">
-                                <div className="projects-entry-chip">
-                                    <Chip label={"JavaScript"} />
-                                </div>
-                                <div className="projects-entry-chip">
-                                    <Chip label="React"/>
-                                </div>
-                                <div className="projects-entry-chip">
-                                    <Chip label="CSS"/>
-                                </div>
-                                <br/>
-                                <div>
-                                    <Button target={"_blank"} href={"https://github.com/AnandSunderrajan"} startIcon={<Github/>}>In Progress</Button>
-                                </div>
-                                {/*<Button target={"_blank"} href={"https://github.com"} startIcon={<Language/>}>Live Version</Button>*/}
-                            </div>
-                        </CardText>
-                    </Card>
-                </div>
-                <div className="projects-entry">
-                    <Card expanded={this.state.expanded2} onExpandChange={this.handleExpandChange2}>
+                    <Card expanded={this.state.expanded3} onExpandChange={this.handleExpandChange3}>
                         <CardHeader title="Pipelined LC3-b Microprocessor" subtitle="ECE385 Final Project"
                                     actAsExpander={true} showExpandableButton={true}/>
                         <CardText expandable={true}>
@@ -157,7 +178,7 @@ class ProjectsComponent extends Component {
                     </Card>
                 </div>
                 <div className="projects-entry">
-                    <Card expanded={this.state.expanded3} onExpandChange={this.handleExpandChange3}>
+                    <Card expanded={this.state.expanded4} onExpandChange={this.handleExpandChange4}>
                         <CardHeader title="Object Detection and Classification System" subtitle="ECE498"
                                     actAsExpander={true} showExpandableButton={true}/>
                         <CardText expandable={true}>
